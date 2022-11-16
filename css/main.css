@@ -195,4 +195,18 @@ body::before {
   .profile-card__actions > button:hover {
     transform: translateY(-5px);
   }
+}
+.profile-card__actions > button.one {
+  background: linear-gradient(45deg, #1da1f2, #0e71c8);
+  box-shadow: 0 4px 30px rgba(10, 127, 212, 0.4);
+}
+.profile-card__actions > button.one:hover {
+  box-shadow: 0 7px 30px rgba(223, 45, 70, 0.75);
+}
+.profile-card__actions > button.two {
+  background: linear-gradient(45deg, #fff94c, #ccc615);
+  box-shadow: 0 4px 30px rgba(10, 127, 212, 0.4);
+}
+.profile-card__actions > button.two:hover {
+  box-shadow: 0 7px 30px rgba(223, 45, 70, 0.75);
 }/*# sourceMappingURL=main.css.map */

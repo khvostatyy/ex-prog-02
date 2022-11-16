@@ -1,44 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
-
-body {
-    font: 18px 'Nunito', sans-serif;
-    color: black;
-    min-height: 100vh;
-    padding: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    // #004ff9 → #fff94c Україна
-    // #f1f2b5 → #135058 біжовий-синій
-    // #d1913c → #ffd194 коко карамель
-    // #8e9eab → #eef2f3 портрет
-    // #abbaab → #ffffff металік
-    // #485563 → #29323c сервквік
-    // #00c6ff → #0072ff фейсбук месенджер
-    // #232526 → #414345 міднайт сіті
-
-    &::before {
-        content: '';
-        position: fixed;
-        inset: 0;
-        z-index: -1;
-        pointer-events: none;
-        // не працює
-        background: url("../images/bgc.png") no-repeat center;
-        background-size: cover;
-        // не працює
-        animation: backgroundZoomAnimate 20s forwards;
-
-        // не працює
-        background-image: linear-gradient(
-            to top
-            #232526,
-            #414345
-        );
-        // не працює
-    }
-}
+@import "./components/body";
 
 @keyframes backgroundZoomAnimate {
     from {
@@ -151,7 +111,6 @@ body {
                     transform: scale(1.2) translateY(-5px);
                 }
             }
-                        // не працює
             &.facebook {
                 background: linear-gradient(45deg #3b5998, #0078d7);
                 box-shadow: 0 4px 30px rgba(43, 98, 169, 0.5);
@@ -176,7 +135,6 @@ body {
                 background: linear-gradient(45deg #3b5998, #0078d7);
                 box-shadow: 0 4px 30px rgba(43, 98, 169, 0.5);
             }
-                        // не працює
         }
     }
 
@@ -227,7 +185,7 @@ body {
                 box-shadow: 0 4px 30px rgba(10, 127, 212, 0.4);
 
                 &:hover {
-                        box-shadow: 0 7px 30px rgba(223, 45, 70. 0.75);
+                        box-shadow: 0 7px 30px rgba(223, 45, 70, 0.75);
                 }
             }
 
@@ -238,7 +196,7 @@ body {
                 box-shadow: 0 4px 30px rgba(10, 127, 212, 0.4);
 
                 &:hover {
-                    box-shadow: 0 7px 30px rgba(223, 45, 70. 0.75);
+                    box-shadow: 0 7px 30px rgba(223, 45, 70, 0.75);
                 }
             }
         }

@@ -8,10 +8,13 @@
         {
             "extensionName": ".min.css",
             "format": "compressed",
-            "savePath": "/dist/css"
+            "savePath": "/css"
         }
     ],
-    "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
+    "liveSassCompile.settings.excludeList": [
+       "**/node_modules/**",
+       ".vscode/**"
+    ],
     "liveSassCompile.settings.generateMap": true,
     "liveSassCompile.settings.autoprefix": [
         "defaults"
