@@ -24,15 +24,10 @@ body {
         inset: 0;
         z-index: -1;
         pointer-events: none;
-        // не працює
-        background: url("../images/bgc.png") no-repeat center;
         background-size: cover;
-        // не працює
         animation: backgroundZoomAnimate 20s forwards;
 
-        // не працює
-        background-image: linear-gradient(to top #232526,
-                #414345);
-        // не працює
+        background-image: linear-gradient(to top #004ff9,
+                #fff94c);
     }
 }
