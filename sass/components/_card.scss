@@ -144,9 +144,7 @@
             padding: 15px 0;
             min-width: 250px;
             border-radius: 50px;
-            // не працює
             text-align: center;
-            // не працює
             color: white;
             cursor: pointer;
             transition: all .2s;
@@ -168,9 +166,8 @@
             }
 
             &.one {
-                // не працює
-                background: linear-gradient(45deg, #1da1f2, #0e71c8);
-                // не працює
+                backdrop-filter: blur(15px);
+                // background: linear-gradient(45deg, #1da1f2, #0e71c8);
                 box-shadow: 0 4px 30px rgba(10, 127, 212, 0.4);
 
                 &:hover {
@@ -179,9 +176,8 @@
             }
 
             &.two {
-                // не працює
-                background: linear-gradient(45deg, #fff94c, #ccc615);
-                // не працює
+                backdrop-filter: blur(15px);
+                // background: linear-gradient(45deg, #fff94c, #ccc615);
                 box-shadow: 0 4px 30px rgba(10, 127, 212, 0.4);
 
                 &:hover {

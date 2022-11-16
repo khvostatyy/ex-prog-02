@@ -27,7 +27,47 @@ body {
         background-size: cover;
         animation: backgroundZoomAnimate 20s forwards;
 
-        background-image: linear-gradient(to top #004ff9,
-                #fff94c);
+        background-image: linear-gradient(
+            to top left,
+            #004ff9,
+            #fff94c
+            );
+
+        // background-image: linear-gradient(
+        //     to top,
+        //     #f1f2b5,
+        //     #135058
+        //     );
+
+        // background-image: linear-gradient(
+        //     to top,
+        //     #8e9eab,
+        //     #ffd194
+        //     );
+
+        // background-image: linear-gradient(
+        //     to top,
+        //     #abbaab,
+        //     #ffffff
+        //     );
+
+        // background-image: linear-gradient(
+        //     to top,
+        //     #485563,
+        //     #29323c
+        //     );
+
+        // background-image: linear-gradient(
+        //     to top,
+        //     #00c6ff,
+        //     #0072ff
+        //     );
+
+        // background-image: linear-gradient(
+        //     to top,
+        //     #232526,
+        //     #414345
+        //     );
     }
+
 }
