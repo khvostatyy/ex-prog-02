@@ -184,7 +184,7 @@ body::before {
   box-shadow: 0 4px 30px rgba(10, 127, 212, 0.4);
 }
 .profile-card__actions > button.one:hover {
-  box-shadow: 0 7px 30px rgba(223, 45, 70, 0.75);
+  box-shadow: 0 4px 30px rgba(43, 98, 169, 0.5);
 }
 .profile-card__actions > button.two {
   -webkit-backdrop-filter: blur(15px);
@@ -192,7 +192,7 @@ body::before {
   box-shadow: 0 4px 30px rgba(10, 127, 212, 0.4);
 }
 .profile-card__actions > button.two:hover {
-  box-shadow: 0 7px 30px rgba(223, 45, 70, 0.75);
+  box-shadow: 0 4px 30px rgba(43, 98, 169, 0.5);
 }
 
 @-webkit-keyframes backgroundZoomAnimate {
